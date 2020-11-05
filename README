@@ -1,0 +1,33 @@
+README
+Name: Yaakov Amsellem
+Id: 312560162
+
+Exercise 1 - Generic Hash Table
+
+===Description ===
+
+Program files:
+GenericHashTble.c - implementation file for a generic hash file.
+GenericHashTble.h - all the .c file functions stump and documentation.
+
+funcation:
+	createTable - create a brand new hash table, gets the settings from user.
+	freeTable - delete the hash table and free's the memory
+	add - add an Object(node) in the end of the list in the hashFunc index
+	removeObj - delete an object with the same data from the table if exists.
+	search - search for an equal Object in the table.
+	printTable - print the whole table index by index.
+	createObject - create a new object to insert to the table
+	freeObject - release the Object memory and delete it.
+	isEqual - checks if two data are equals
+	intHashFunc - returns the object number section for int's
+	strHashFunc - returns the object number section for str's
+	freeRoot - delete all the objects in root from the table
+	physicalIndex - return the actually index in the table (after multiply table)
+	insertToSection - insert an object to a Section
+	insertToRoot - try insert an object to a root
+	multiplyTable - the function reallocate memory of table by 2 and orders the root's
+	printRoot - print the whole data in some root by the insertion order
+	searchInRoot - search an equal object  
+	removeFromRoot - remove an object in a root if exists
+
